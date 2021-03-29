@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "192826139537",
+    "firebase_url": "https://stately-rock-278718.firebaseio.com",
+    "project_id": "stately-rock-278718",
+    "storage_bucket": "stately-rock-278718.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:192826139537:android:50559ab078932749b47030",
+        "android_client_info": {
+          "package_name": "com.example.firestore"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "192826139537-hjc4mi79p5sp1e1kpdu6i7rcgsalcoim.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyArtusGPCMwwbmi9AjUa4scaKFlO6lse4A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "192826139537-hjc4mi79p5sp1e1kpdu6i7rcgsalcoim.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:192826139537:android:a0436db535866690b47030",
+        "android_client_info": {
+          "package_name": "com.example.tagsisapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "192826139537-hjc4mi79p5sp1e1kpdu6i7rcgsalcoim.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyArtusGPCMwwbmi9AjUa4scaKFlO6lse4A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "192826139537-hjc4mi79p5sp1e1kpdu6i7rcgsalcoim.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

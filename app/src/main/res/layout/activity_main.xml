@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E6DCDB"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:contentDescription="searchicon"
+        android:paddingTop="20pt"
+        android:src="@drawable/search_icon" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="5pt"
+        android:autofillHints="Lütfen aramak istediğiniz kelimeyi girin..."
+        android:hint="Aramak istediğiniz kelimeyi girin..."
+        android:inputType="textPersonName"
+        android:paddingHorizontal="20px" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="5pt"
+        android:orientation="horizontal">
+
+
+        <Button
+            android:id="@+id/btnBrandSearch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5pt"
+            android:background="#D2D7D3"
+            android:clickable="true"
+            android:text="Marka Ara" />
+
+        <Button
+            android:id="@+id/btnProductSearch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5pt"
+            android:background="#D2D7D3"
+            android:clickable="true"
+            android:text="Ürün Ara" />
+
+        <Button
+            android:id="@+id/btnBarcodeSearch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5pt"
+            android:background="#D2D7D3"
+            android:clickable="true"
+            android:text="Barkod Ara" />
+
+    </LinearLayout>
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnGoAddProduct"
+        android:clickable="true"
+        android:text="ÜRÜN EKLE"
+        android:layout_gravity="center"
+        android:background="#D2D7D3"
+        android:layout_marginTop="5pt"/>
+
+   <androidx.recyclerview.widget.RecyclerView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:id="@+id/recyclerView"></androidx.recyclerview.widget.RecyclerView>
+
+
+</LinearLayout>

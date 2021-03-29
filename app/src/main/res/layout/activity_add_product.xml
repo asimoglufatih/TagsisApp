@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E6DCDB"
+    android:orientation="vertical"
+    tools:context=".AddProduct">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30pt"
+        android:src="@drawable/add_icon" />
+
+    <EditText
+        android:id="@+id/editText_barcode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10pt"
+        android:autofillHints="Ürünün barkodunu giriniz..."
+        android:paddingHorizontal="20px"
+        android:layout_gravity="center_horizontal"
+        android:hint="Ürünün barkodunu giriniz..." />
+
+    <EditText
+        android:id="@+id/editText_brand"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5pt"
+        android:autofillHints="Ürünün markasını giriniz..."
+        android:hint="Ürünün markasını giriniz..." />
+
+    <EditText
+        android:id="@+id/editText_company"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5pt"
+        android:autofillHints="Ürünün şirketini giriniz..."
+        android:hint="Ürünün şirketini giriniz..." />
+
+    <EditText
+        android:id="@+id/editText_product"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5pt"
+        android:autofillHints="Ürünün ismini giriniz..."
+        android:hint="Ürünün ismini giriniz..." />
+
+    <EditText
+        android:id="@+id/editText_unsuitability"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5pt"
+        android:autofillHints="Ürünün uygunsuzluğunu giriniz..."
+        android:hint="Ürünün uygunsuzluğunu giriniz..." />
+
+    <EditText
+        android:id="@+id/editText_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5pt"
+        android:autofillHints="İlan edilen tarihi giriniz..."
+        android:hint="İlan edilen tarihi giriniz..." />
+
+    <Button
+        android:id="@+id/btnAddProduct"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="5pt"
+        android:background="#D2D7D3"
+        android:text="Ürünü ekle"
+        android:clickable="true"/>
+
+</LinearLayout>
